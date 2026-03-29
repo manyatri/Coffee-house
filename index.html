@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House | Elegant Brews</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Coffee House.</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-up">
+            <p class="subtitle">Welcome to</p>
+            <h1 class="hero-title">Coffee House</h1>
+            <p class="hero-desc">Experience the art of artisanal coffee in every cup. Roasted to perfection, brewed with passion.</p>
+            <a href="#menu" class="cta-btn">Explore Our Menu</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container about-container fade-in-scroll">
+            <div class="about-text">
+                <h2 class="section-title">The Art of Roasting</h2>
+                <div class="divider"></div>
+                <p>At Coffee House, we believe that great coffee is an experience, an art form that brings people together. Our beans are ethically sourced from the finest farms around the world and roasted locally to extract complex, rich flavors.</p>
+                <p>Whether you're looking for a quick espresso to start your morning or a quiet corner to enjoy a pour-over, our elegant space and passionate baristas are here to welcome you.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-item">
+                    <h3>15+</h3>
+                    <p>Single Origin Beans</p>
+                </div>
+                <div class="stat-item">
+                    <h3>2010</h3>
+                    <p>Established</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu section" id="menu">
+        <div class="container">
+            <div class="menu-header fade-in-scroll">
+                <h2 class="section-title text-center">Our Signature Brews</h2>
+                <div class="divider mx-auto"></div>
+                <p class="text-center menu-subtitle">Discover our carefully crafted coffee selection, made to perfection.</p>
+            </div>
+            
+            <div class="menu-grid">
+                <!-- Espresso -->
+                <div class="menu-card fade-in-scroll">
+                    <div class="menu-img-wrapper">
+                        <img src="assets/images/espresso.png" alt="Double Espresso" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3>Double Espresso</h3>
+                            <span class="price">$3.50</span>
+                        </div>
+                        <p>A rich and intense shot of our signature dark roast with perfect golden crema.</p>
+                    </div>
+                </div>
+
+                <!-- Cappuccino -->
+                <div class="menu-card fade-in-scroll">
+                    <div class="menu-img-wrapper">
+                        <img src="assets/images/cappuccino.png" alt="Artisan Cappuccino" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3>Artisan Cappuccino</h3>
+                            <span class="price">$4.75</span>
+                        </div>
+                        <p>Perfectly balanced espresso topped with thick, velvety microfoam and delicate latte art.</p>
+                    </div>
+                </div>
+
+                <!-- Cold Brew -->
+                <div class="menu-card fade-in-scroll">
+                    <div class="menu-img-wrapper">
+                        <img src="assets/images/cold_brew.png" alt="Signature Cold Brew" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-row">
+                            <h3>Signature Cold Brew</h3>
+                            <span class="price">$5.00</span>
+                        </div>
+                        <p>Steeped for 18 hours, this refreshing brew is incredibly smooth with sweet cocoa notes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer" id="contact">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2 class="footer-logo">Coffee House.</h2>
+                <p>Elevating the coffee experience, one cup at a time. Join us for a moment of perfection.</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Visit Us</h3>
+                <p>123 Elegance Ave.<br>City Center, NY 10001</p>
+                <p>hello@coffeehouse.com<br>+1 (555) 123-4567</p>
+            </div>
+            <div class="footer-hours">
+                <h3>Hours</h3>
+                <p>Mon - Fri: 7am - 8pm</p>
+                <p>Sat - Sun: 8am - 9pm</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Coffee House. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
